@@ -3,7 +3,7 @@ import pandas as pd
 from joblib import load #for faster model loading and compatibility with scikit-learn
 
 # Loading the trained model(SVM)
-wholesalemodel = load('wholesalemodel.pkl')
+wholesalemodel = load('dataset/wholesalemodel.pkl')
 #Importing Required Libraries and Loading selected Model
 
 # Defining a function that takes several input parameters to predict whether it is Horeca or Retail
